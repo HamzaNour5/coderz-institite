@@ -1,0 +1,14 @@
+1. CSS file paths:
+
+index.html:
+href="styles.css"
+
+pages/courses.html:
+href="../styles.css"
+
+2. CSS Selector:
+
+.course-card[data-status="full"] .status
+بختار العنصر الي عنده 
+class="status"
+بشرط يكون داخل كرت كورس عنده data-status="full".
